@@ -36,6 +36,9 @@ surf = ax.plot_surface(X1, Y1, Z, rstride=1, cstride=1,
 
 ax.zaxis.set_major_locator(LinearLocator(10))
 ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+ax.set_xlabel('LOCATION')
+ax.set_ylabel('LOCATION')
+ax.set_zlabel('WAVE FUNCTION')
 
 fig.colorbar(surf, shrink=0.5, aspect=5)
 
