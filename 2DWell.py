@@ -20,7 +20,7 @@ nx = float(nxstring)
 
 print ("Enter ny:")
 nystring = input()
-ny = float(nxstring)
+ny = float(nystring)
 
 x = np.arange(0., lengthx, (lengthx-0)/100)
 y = np.arange(0., lengthy, (lengthy-0)/100)
